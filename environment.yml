@@ -18,6 +18,7 @@
      #- pims
    - numba
    - scipy
+   - pytables
    - pandas
    - matplotlib
    - ipyparallel
