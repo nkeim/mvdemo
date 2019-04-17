@@ -1,4 +1,4 @@
- name: trackpy-examples
+ name: mvdemo
  channels:
    - defaults
    - conda-forge
@@ -7,15 +7,22 @@
    - pip
    - six
    - pyyaml
+   - jinja2
    - scikit-image
-   - numba
-     #- trackpy=0.4.1
+     # Uncomment these if you want to analyze a movie file.
+     #- ffmpeg
+     #- av
+     #- moviepy
+     # Uncomment if you want the latest stable releases of trackpy and pims, instead
+     #- trackpy
      #- pims
+   - numba
    - scipy
-   - pytables
    - pandas
    - matplotlib
    - ipyparallel
+     # Install development versions of trackpy and pims, for compatibility with latest
+     # dependencies.
    - pip:
        - git+git://github.com/soft-matter/pims.git#egg=pims
        - git+git://github.com/soft-matter/trackpy.git#egg=trackpy
