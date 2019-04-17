@@ -1,0 +1,21 @@
+ name: trackpy-examples
+ channels:
+   - defaults
+   - conda-forge
+ dependencies:
+   - python=3
+   - pip
+   - six
+   - pyyaml
+   - scikit-image
+   - numba
+     #- trackpy=0.4.1
+     #- pims
+   - scipy
+   - pytables
+   - pandas
+   - matplotlib
+   - ipyparallel
+   - pip:
+       - git+git://github.com/soft-matter/pims.git#egg=pims
+       - git+git://github.com/soft-matter/trackpy.git#egg=trackpy
