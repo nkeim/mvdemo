@@ -10,9 +10,9 @@
    - jinja2
    - scikit-image
      # Uncomment these if you want to analyze a movie file.
-     #- ffmpeg
-     #- av
-     #- moviepy
+   - ffmpeg
+   - av
+   - moviepy
      # Uncomment if you want the latest stable releases of trackpy and pims, instead
      #- trackpy
      #- pims
