@@ -6,7 +6,7 @@ Machine vision demos for PyData SLO
 If you have conda or Anaconda installed, you can also clone/download this to your own computer, and in this directory run
 
 ```
-conda create -f environment.yml
+conda env create -f environment.yml
 conda activate mvdemo
 python -m ipykernel install --user --name mvdemo --display-name mvdemo
 ```
